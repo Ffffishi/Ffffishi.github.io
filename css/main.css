@@ -1234,7 +1234,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #4e50ff;
+    background: #d54028;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1632,6 +1632,7 @@ pre code {
   color: #f00;
   display: inline-block;
   margin: 0 5px;
+  animation: icon-animate 1.33s ease-in-out infinite;
 }
 @keyframes icon-animate {
   0%, 100% {
@@ -1665,7 +1666,6 @@ pre code {
 }
 .back-to-top span {
   margin-right: 8px;
-  display: none;
 }
 .back-to-top .fa {
   text-align: center;
@@ -2096,9 +2096,9 @@ pre code {
 }
 .post-eof {
   background: #ccc;
-  height: 1px;
+  height: 3px;
   margin: 80px auto 60px;
-  width: 8%;
+  width: 100%;
 }
 .post-block:last-of-type .post-eof {
   display: none;
